@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Rancho&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --body-text: #1b1a1a;
+}
+
+* {
+  @apply font-raleway;
+  @apply text-base;
+}
