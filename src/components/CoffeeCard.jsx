@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import blackTea from "../assets/images/1.png";
 // import teaPhoto from "../assets/images/2.png";
+import { MdDelete, MdModeEditOutline } from "react-icons/md";
+import { GrView } from "react-icons/gr";
 
 const CoffeeCard = ({ coffee, coffees, setTheCoffees }) => {
   const { _id, name, photo, chef } = coffee;
@@ -28,11 +29,11 @@ const CoffeeCard = ({ coffee, coffees, setTheCoffees }) => {
   };
 
   return (
-    <div className="card card-side card-compact bg-base-100 rounded-none card-bordered">
+    <div className="card card-side card-compact bg-card rounded-none card-bordered">
       <figure>
         <img src={blackTea || photo} alt={name} />
       </figure>
-      <div className="flex gap-3 ms-3">
+      <div className="flex gap-10 ms-3 items-center">
         <div className="flex flex-col">
           <h2 className="card-title">
             <span className="font-semibold">Name:</span> {name}
@@ -41,16 +42,18 @@ const CoffeeCard = ({ coffee, coffees, setTheCoffees }) => {
             <span className="font-semibold">Chef:</span> {chef}
           </h2>
           <h2 className="card-title">
-            <span className="font-semibold">Price:</span> {price}
+            <span className="font-semibold">Price:</span> {price} TK
           </h2>
         </div>
         <div className="card-actions flex-col justify-center">
-          <button className="btn btn-primary">View</button>
-          <Link to={`/updateCoffee/${_id}`}>
-            <button className="btn btn-info">Edit</button>
-          </Link>
+          <button className="btn btn-primary">
+            <GrView />
+          </button>
+          <button className="btn btn-info" to={`/updateCoffee/${_id}`}>
+            <MdModeEditOutline />
+          </button>
           <button onClick={() => handleDelete(_id)} className="btn btn-warning">
-            Delete
+            <MdDelete />
           </button>
         </div>
       </div>

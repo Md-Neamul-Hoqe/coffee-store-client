@@ -13,6 +13,7 @@ export default {
         'coffee-header-gray': '#374151',
         'coffee-header-brown': '#331A15',
         'action-tan': '#d2b48c',
+        'card': '#ECEAE3',
         // 'coffee-text-black': '#1B1A1A', /* 80, 50, 60, 70 */
         'body': (params) => colorOpacity("--body-text", params)
       },
