@@ -21,7 +21,7 @@ const SignUp = () => {
         /* store data to the database */
         const user = { email, createdAt };
 
-        fetch("https://coffee-store-server-bc3vycada-muhammad-neamul-hoqes-projects.vercel.app/user", {
+        fetch("https://coffee-store-server-seven-gamma.vercel.app/user", {
           method: "POST",
           headers: {
             "content-type": "application/json",

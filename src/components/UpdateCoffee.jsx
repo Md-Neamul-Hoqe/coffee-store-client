@@ -31,7 +31,7 @@ const UpdateCoffee = () => {
 
     console.log(updatedCoffee);
 
-    fetch(`https://coffee-store-server-bc3vycada-muhammad-neamul-hoqes-projects.vercel.app/coffee/${_id}`, {
+    fetch(`https://coffee-store-server-seven-gamma.vercel.app/coffee/${_id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -60,8 +60,9 @@ const UpdateCoffee = () => {
             className="card-body bg-[#F4F3F0]">
             <div className="text-center">
               <h1 className="text-5xl font-rancho text-coffee-header-gray">
-                Update Coffee: {name}
+              Update Existing Coffee Details
               </h1>
+              <p className="text-xl">It is a long established fact that a reader will be distraceted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.</p>
             </div>
             <div className="flex flex-col gap-6">
               <div className="flex max-lg:flex-col gap-6">

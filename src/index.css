@@ -11,3 +11,7 @@
   @apply font-raleway;
   @apply text-base;
 }
+
+.btn {
+  @apply capitalize;
+}

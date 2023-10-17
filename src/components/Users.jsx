@@ -9,7 +9,7 @@ const Users = () => {
     /* make sure user is confirmed deletion  */
 
     console.log(id);
-    fetch(`https://coffee-store-server-bc3vycada-muhammad-neamul-hoqes-projects.vercel.app/user/${id}`, {
+    fetch(`https://coffee-store-server-seven-gamma.vercel.app/user/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

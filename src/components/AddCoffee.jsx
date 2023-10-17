@@ -26,7 +26,7 @@ const AddCoffee = () => {
 
     console.log(coffeeInfo);
 
-    fetch("https://coffee-store-server-bc3vycada-muhammad-neamul-hoqes-projects.vercel.app/coffee", {
+    fetch("https://coffee-store-server-seven-gamma.vercel.app/coffee", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -39,6 +39,54 @@ const AddCoffee = () => {
         if (data.insertedId) alert("A new tea added.");
       });
   };
+
+  /* home page */
+  // https://i.ibb.co/993Psyv/1.png
+  // https://i.ibb.co/4ZTxX8v/2.png
+  // https://i.ibb.co/YZjLKrk/3.png
+  // https://i.ibb.co/zJqHPbp/4.png
+  // https://i.ibb.co/Bst2SGw/21.png
+  // https://i.ibb.co/Px2GZf6/22.png
+  // https://i.ibb.co/c8tqyjD/23.png
+  // https://i.ibb.co/J52qVBv/24.jpg
+  // https://i.ibb.co/cwWBqLt/25.jpg
+  // https://i.ibb.co/XD0Gb56/26.png
+  // https://i.ibb.co/RB3XqwR/27.jpg
+  // https://i.ibb.co/QFqbbCn/28.jpg
+  // https://i.ibb.co/qpJd0Lf/footer.png
+  // https://i.ibb.co/jygG4Cm/img-03.png
+  // https://i.ibb.co/cyZDzdh/logo1.png
+  // https://i.ibb.co/cY9GNtw/5.png
+  // https://i.ibb.co/RvfSSBs/6.jpg
+  // https://i.ibb.co/MpW1pYf/6.png
+  // https://i.ibb.co/MyHHSwy/7.png
+  // https://i.ibb.co/1nDv7Mv/8.png
+  // https://i.ibb.co/4tz4mk1/9.png
+  // https://i.ibb.co/2sT8R8Q/10.jpg
+  // https://i.ibb.co/5FtcMF7/10.png
+  // https://i.ibb.co/QkS43yQ/11.png
+  // https://i.ibb.co/crSSnzS/12.jpg
+  // https://i.ibb.co/GV1dmKf/12.png
+  // https://i.ibb.co/B2R50yy/13.jpg
+  // https://i.ibb.co/F3mhBRS/14.jpg
+  // https://i.ibb.co/zSMDXGz/15.jpg
+  // https://i.ibb.co/6tHZHgd/16.jpg
+  // https://i.ibb.co/QCSGQXt/16.png
+  // https://i.ibb.co/HYPWFdj/17.jpg
+  // https://i.ibb.co/R265ykS/17.png
+  // https://i.ibb.co/1QYRn67/18.png
+  // https://i.ibb.co/XygwNy3/19.png
+  // https://i.ibb.co/K5LFW61/20.png
+
+  // follow on instagram
+  // https://i.ibb.co/SR5m3qQ/Rectangle-9.png
+  // https://i.ibb.co/KKHMQCt/Rectangle-10.png
+  // https://i.ibb.co/qss6YhP/Rectangle-11.png
+  // https://i.ibb.co/bmP3RrH/Rectangle-12.png
+  // https://i.ibb.co/ZhQfNRB/Rectangle-13.png
+  // https://i.ibb.co/HBT6vVY/Rectangle-14.png
+  // https://i.ibb.co/3dC7nNL/Rectangle-15.png
+  // https://i.ibb.co/C0qMKWW/Rectangle-16.png
 
   return (
     <div className="hero min-h-screen bg-transparent">

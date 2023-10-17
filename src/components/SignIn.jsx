@@ -24,7 +24,7 @@ const SignIn = () => {
           lastSignInAt: res.user?.metadata?.lastSignInTime,
         };
 
-        fetch("https://coffee-store-server-bc3vycada-muhammad-neamul-hoqes-projects.vercel.app/user", {
+        fetch("https://coffee-store-server-seven-gamma.vercel.app/user", {
           method: "PATCH",
           headers: {
             "content-type": "application/json",
